@@ -1,5 +1,5 @@
 {
-	"name": "php7bundle/crypt-tunnel",
+	"name": "zncrypt/tunnel",
 	"type": "extension",
 	"license": "MIT",
 	"authors": [
