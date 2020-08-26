@@ -17,7 +17,7 @@ CorsHelper::autoload();
 $container = Container::getInstance();
 $routeCollection = new RouteCollection;
 
-require_once __DIR__ . '/../../vendor/php7bundle/crypt-tunnel/src/Symfony/config/bootstrap.php';
+require_once __DIR__ . '/../../vendor/znbundle/crypt-tunnel/src/Symfony/config/bootstrap.php';
 
 $response = RestApiControllerHelper::run($routeCollection, $container);
 $response->send();
