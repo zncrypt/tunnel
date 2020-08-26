@@ -10,7 +10,7 @@
 	],
 	"minimum-stability": "dev",
 	"require": {
-
+		"zncrypt/base": "v0.*"
 	},
 	"autoload": {
 		"psr-4": {
