@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Libs;
+namespace ZnCrypt\BaseTunnel\Domain\Libs;
 
-use PhpBundle\Crypt\Domain\Libs\Encoders\EncoderInterface;
-use PhpLab\Core\Domain\Helpers\EntityHelper;
-use PhpLab\Core\Enums\Http\HttpMethodEnum;
-use PhpLab\Core\Enums\Http\HttpServerEnum;
-use PhpLab\Core\Legacy\Yii\Helpers\ArrayHelper;
-use PhpBundle\CryptTunnel\Domain\Entities\RequestEntity;
+use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
+use ZnCore\Base\Domain\Helpers\EntityHelper;
+use ZnCore\Base\Enums\Http\HttpMethodEnum;
+use ZnCore\Base\Enums\Http\HttpServerEnum;
+use ZnCore\Base\Legacy\Yii\Helpers\ArrayHelper;
+use ZnCrypt\BaseTunnel\Domain\Entities\RequestEntity;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

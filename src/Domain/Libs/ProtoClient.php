@@ -1,11 +1,11 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Libs;
+namespace ZnCrypt\BaseTunnel\Domain\Libs;
 
 use GuzzleHttp\Psr7\Response;
-use PhpBundle\Crypt\Domain\Libs\Encoders\EncoderInterface;
-use PhpLab\Core\Enums\Http\HttpHeaderEnum;
-use PhpBundle\CryptTunnel\Domain\Interfaces\TransportInterface;
+use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
+use ZnCore\Base\Enums\Http\HttpHeaderEnum;
+use ZnCrypt\BaseTunnel\Domain\Interfaces\TransportInterface;
 use Psr\Http\Message\ResponseInterface;
 
 class ProtoClient

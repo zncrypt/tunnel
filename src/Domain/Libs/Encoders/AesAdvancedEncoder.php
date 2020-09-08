@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Libs\Encoders;
+namespace ZnCrypt\BaseTunnel\Domain\Libs\Encoders;
 
-use PhpBundle\Crypt\Domain\Enums\EncryptAlgorithmEnum;
-use PhpLab\Core\Helpers\StringHelper;
+use ZnCrypt\Base\Domain\Enums\EncryptAlgorithmEnum;
+use ZnCore\Base\Helpers\StringHelper;
 use phpseclib\Crypt\AES;
 use phpseclib\Crypt\Base;
 

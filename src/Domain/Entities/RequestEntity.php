@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Entities;
+namespace ZnCrypt\BaseTunnel\Domain\Entities;
 
-use PhpLab\Core\Enums\Http\HttpMethodEnum;
+use ZnCore\Base\Enums\Http\HttpMethodEnum;
 
 // todo: implement PSR
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Libs\Tunnel;
+namespace ZnCrypt\BaseTunnel\Domain\Libs\Tunnel;
 
 interface FormatterInterface
 {

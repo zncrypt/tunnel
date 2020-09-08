@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Libs\Tunnel;
+namespace ZnCrypt\BaseTunnel\Domain\Libs\Tunnel;
 
-use PhpBundle\Crypt\Domain\Libs\Encoders\EncoderInterface;
+use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
 
 class JsonFormatter implements EncoderInterface
 {

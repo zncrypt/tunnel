@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Symfony\Api\Controllers;
+namespace ZnCrypt\BaseTunnel\Symfony\Api\Controllers;
 
-use PhpBundle\Crypt\Domain\Enums\HashAlgoEnum;
-use PhpBundle\Kpi\Domain\Libs\Rsa\Rsa;
-use PhpBundle\CryptTunnel\Domain\Libs\Session;
-use PhpLab\Rest\Base\BaseCrudApiController;
-use PhpBundle\Article\Domain\Interfaces\PostServiceInterface;
+use ZnCrypt\Base\Domain\Enums\HashAlgoEnum;
+use ZnCrypt\Pki\Domain\Libs\Rsa\Rsa;
+use ZnCrypt\BaseTunnel\Domain\Libs\Session;
+use ZnLib\Rest\Base\BaseCrudApiController;
+use ZnBundle\Article\Domain\Interfaces\PostServiceInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

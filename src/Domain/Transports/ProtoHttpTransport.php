@@ -1,12 +1,12 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Transports;
+namespace ZnCrypt\BaseTunnel\Domain\Transports;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
-use PhpLab\Core\Enums\Http\HttpMethodEnum;
-use PhpBundle\CryptTunnel\Domain\Interfaces\TransportInterface;
-use PhpBundle\CryptTunnel\Domain\Libs\RestProto;
+use ZnCore\Base\Enums\Http\HttpMethodEnum;
+use ZnCrypt\BaseTunnel\Domain\Interfaces\TransportInterface;
+use ZnCrypt\BaseTunnel\Domain\Libs\RestProto;
 
 class ProtoHttpTransport implements TransportInterface
 {

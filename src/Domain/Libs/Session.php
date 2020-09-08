@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpBundle\CryptTunnel\Domain\Libs;
+namespace ZnCrypt\BaseTunnel\Domain\Libs;
 
-use PhpBundle\Crypt\Domain\Libs\Encoders\EncoderInterface;
-use PhpLab\Core\Helpers\StringHelper;
-use PhpLab\Core\Legacy\Yii\Helpers\ArrayHelper;
+use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
+use ZnCore\Base\Helpers\StringHelper;
+use ZnCore\Base\Legacy\Yii\Helpers\ArrayHelper;
 use Symfony\Component\Cache\Adapter\AbstractAdapter;
 
 class Session
