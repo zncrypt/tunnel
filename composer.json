@@ -16,7 +16,9 @@
 	"autoload": {
 		"psr-4": {
 			"PhpBundle\\CryptTunnel\\": "src",
-			"PhpBundle\\CryptTunnel\\Tests\\": "tests"
+			"PhpBundle\\CryptTunnel\\Tests\\": "tests",
+			"ZnCrypt\\Tunnel\\": "src",
+			"ZnCrypt\\Tunnel\\Tests\\": "tests"
 		}
 	}
 }
