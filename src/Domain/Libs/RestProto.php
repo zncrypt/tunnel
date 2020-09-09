@@ -3,7 +3,7 @@
 namespace ZnCrypt\BaseTunnel\Domain\Libs;
 
 use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
-use ZnCore\Base\Domain\Helpers\EntityHelper;
+use ZnCore\Domain\Helpers\EntityHelper;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
 use ZnCore\Base\Enums\Http\HttpServerEnum;
 use ZnCore\Base\Legacy\Yii\Helpers\ArrayHelper;
