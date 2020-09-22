@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Symfony\Api;
+namespace ZnCrypt\BaseTunnel\Symfony4\Api;
 
 use Doctrine\DBAL\Connection;
 use Illuminate\Database\Capsule\Manager as CapsuleManager;
@@ -14,7 +14,7 @@ use ZnBundle\Article\Domain\Repositories\Eloquent\CategoryRepository;
 use ZnBundle\Article\Domain\Repositories\Eloquent\TagPostRepository;
 use ZnBundle\Article\Domain\Repositories\Eloquent\TagRepository;
 use ZnBundle\Article\Domain\Services\PostService;
-use ZnCrypt\BaseTunnel\Symfony\Api\Controllers\HandShakeController;
+use ZnCrypt\BaseTunnel\Symfony4\Api\Controllers\HandShakeController;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
 use ZnCore\Db\Db\Helpers\DoctrineHelper;
 use ZnCore\Db\Db\Helpers\Manager;

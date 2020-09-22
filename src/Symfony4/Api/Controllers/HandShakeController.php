@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Symfony\Api\Controllers;
+namespace ZnCrypt\BaseTunnel\Symfony4\Api\Controllers;
 
 use ZnCrypt\Base\Domain\Enums\HashAlgoEnum;
 use ZnCrypt\Pki\Domain\Libs\Rsa\Rsa;
