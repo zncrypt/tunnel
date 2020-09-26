@@ -2,6 +2,7 @@
 
 namespace ZnCrypt\BaseTunnel\Domain\Libs;
 
+use ZnCore\Base\Helpers\EnumHelper;
 use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
 use ZnCore\Domain\Helpers\EntityHelper;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
@@ -71,7 +72,8 @@ class RestProto
                 $server[$headerKey] = $headerValue;
             }
         }
-        $server[HttpServerEnum::REQUEST_METHOD] = HttpMethodEnum::value($requestEntity->getMethod(), HttpMethodEnum::GET);
+//        $server[HttpServerEnum::REQUEST_METHOD] = HttpMethodEnum::value($requestEntity->getMethod(), HttpMethodEnum::GET);
+        $server[HttpServerEnum::REQUEST_METHOD] = EnumHelper::getValue(HttpMethodEnum::class, $requestEntity->getMethod(), HttpMethodEnum::GET);
         $server[HttpServerEnum::REQUEST_URI] = $requestEntity->getUri();
         return $server;
     }
