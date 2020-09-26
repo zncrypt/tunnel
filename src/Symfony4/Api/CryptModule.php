@@ -4,24 +4,14 @@ namespace ZnCrypt\BaseTunnel\Symfony4\Api;
 
 use Doctrine\DBAL\Connection;
 use Illuminate\Database\Capsule\Manager as CapsuleManager;
-use ZnBundle\Article\Domain\Interfaces\CategoryRepositoryInterface;
-use ZnBundle\Article\Domain\Interfaces\PostRepositoryInterface;
-use ZnBundle\Article\Domain\Interfaces\PostServiceInterface;
-use ZnBundle\Article\Domain\Interfaces\TagPostRepositoryInterface;
-use ZnBundle\Article\Domain\Interfaces\TagRepositoryInterface;
-use ZnBundle\Article\Domain\Repositories\Doctrine\PostRepository;
-use ZnBundle\Article\Domain\Repositories\Eloquent\CategoryRepository;
-use ZnBundle\Article\Domain\Repositories\Eloquent\TagPostRepository;
-use ZnBundle\Article\Domain\Repositories\Eloquent\TagRepository;
-use ZnBundle\Article\Domain\Services\PostService;
-use ZnCrypt\BaseTunnel\Symfony4\Api\Controllers\HandShakeController;
-use ZnCore\Base\Enums\Http\HttpMethodEnum;
-use ZnCore\Db\Db\Helpers\DoctrineHelper;
-use ZnCore\Db\Db\Helpers\Manager;
-use ZnLib\Rest\Helpers\RestApiRouteHelper;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
+use ZnCore\Base\Enums\Http\HttpMethodEnum;
+use ZnCore\Db\Db\Helpers\DoctrineHelper;
+use ZnCore\Db\Db\Helpers\Manager;
+use ZnCrypt\BaseTunnel\Symfony4\Api\Controllers\HandShakeController;
+use ZnLib\Rest\Symfony4\Helpers\RestApiRouteHelper;
 
 class CryptModule
 {
@@ -39,7 +29,8 @@ class CryptModule
         //RestApiRouteHelper::defineCrudRoutes('v1/crypt-handshake', HandShakeController::class, $routeCollection);
     }
 
-    private function addRoute(RouteCollection $routeCollection, $controllerClassName, $actionName, array $methods = [HttpMethodEnum::GET, HttpMethodEnum::POST]) {
+    private function addRoute(RouteCollection $routeCollection, $controllerClassName, $actionName, array $methods = [HttpMethodEnum::GET, HttpMethodEnum::POST])
+    {
         $endpoint = 'v1/crypt-handshake';
         //$controllerClassName = HandShakeController::class;
         $routeNamePrefix = RestApiRouteHelper::extractRoutePrefix($controllerClassName);

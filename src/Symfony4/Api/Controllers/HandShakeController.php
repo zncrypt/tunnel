@@ -5,7 +5,7 @@ namespace ZnCrypt\BaseTunnel\Symfony4\Api\Controllers;
 use ZnCrypt\Base\Domain\Enums\HashAlgoEnum;
 use ZnCrypt\Pki\Domain\Libs\Rsa\Rsa;
 use ZnCrypt\BaseTunnel\Domain\Libs\Session;
-use ZnLib\Rest\Base\BaseCrudApiController;
+use ZnLib\Rest\Symfony4\Base\BaseCrudApiController;
 use ZnBundle\Article\Domain\Interfaces\PostServiceInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
