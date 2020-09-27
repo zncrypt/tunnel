@@ -8,8 +8,8 @@ use Psr\Container\ContainerInterface;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
-use ZnCore\Db\Db\Helpers\DoctrineHelper;
-use ZnCore\Db\Db\Helpers\Manager;
+use ZnCore\Db\Db\Facades\DoctrineFacade;
+use ZnCore\Db\Db\Capsule\Manager;
 use ZnCrypt\BaseTunnel\Symfony4\Api\Controllers\HandShakeController;
 use ZnLib\Rest\Symfony4\Helpers\RestApiRouteHelper;
 
@@ -49,7 +49,7 @@ class CryptModule
     {
         $container->bind(CapsuleManager::class, Manager::class);
         $container->bind(Connection::class, function () {
-            return DoctrineHelper::createConnection();
+            return DoctrineFacade::createConnection();
         });
         /*$container->bind(CategoryRepositoryInterface::class, CategoryRepository::class);
         $container->bind(TagRepositoryInterface::class, TagRepository::class, true);
