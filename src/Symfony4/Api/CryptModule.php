@@ -8,8 +8,8 @@ use Psr\Container\ContainerInterface;
 use Symfony\Component\Routing\Route;
 use Symfony\Component\Routing\RouteCollection;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
-use ZnCore\Db\Db\Facades\DoctrineFacade;
-use ZnCore\Db\Db\Capsule\Manager;
+use ZnLib\Db\Facades\DoctrineFacade;
+use ZnLib\Db\Capsule\Manager;
 use ZnCrypt\BaseTunnel\Symfony4\Api\Controllers\HandShakeController;
 use ZnLib\Rest\Symfony4\Helpers\RestApiRouteHelper;
 
