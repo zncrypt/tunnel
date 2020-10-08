@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Libs;
+namespace ZnCrypt\Tunnel\Domain\Libs;
 
 use ZnCore\Base\Helpers\EnumHelper;
 use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
@@ -8,7 +8,7 @@ use ZnCore\Domain\Helpers\EntityHelper;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
 use ZnCore\Base\Enums\Http\HttpServerEnum;
 use ZnCore\Base\Legacy\Yii\Helpers\ArrayHelper;
-use ZnCrypt\BaseTunnel\Domain\Entities\RequestEntity;
+use ZnCrypt\Tunnel\Domain\Entities\RequestEntity;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

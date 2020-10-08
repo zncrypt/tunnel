@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Entities;
+namespace ZnCrypt\Tunnel\Domain\Entities;
 
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
 

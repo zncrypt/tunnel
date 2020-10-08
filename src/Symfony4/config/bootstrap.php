@@ -2,7 +2,7 @@
 
 use Illuminate\Container\Container;
 use ZnCrypt\Pki\Domain\Libs\Rsa\RsaStoreFile;
-use ZnCrypt\BaseTunnel\Symfony4\Api\CryptModule;
+use ZnCrypt\Tunnel\Symfony4\Api\CryptModule;
 use ZnCore\Base\Enums\Measure\TimeEnum;
 use Symfony\Component\Cache\Adapter\AbstractAdapter;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;

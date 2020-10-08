@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Libs\Encoders;
+namespace ZnCrypt\Tunnel\Domain\Libs\Encoders;
 
 use ZnCrypt\Base\Domain\Enums\EncryptAlgorithmEnum;
 use ZnCore\Base\Helpers\StringHelper;

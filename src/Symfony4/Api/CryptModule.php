@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Symfony4\Api;
+namespace ZnCrypt\Tunnel\Symfony4\Api;
 
 use Doctrine\DBAL\Connection;
 use Illuminate\Database\Capsule\Manager as CapsuleManager;
@@ -10,8 +10,8 @@ use Symfony\Component\Routing\RouteCollection;
 use ZnCore\Base\Enums\Http\HttpMethodEnum;
 use ZnLib\Db\Facades\DoctrineFacade;
 use ZnLib\Db\Capsule\Manager;
-use ZnCrypt\BaseTunnel\Symfony4\Api\Controllers\HandShakeController;
-use ZnLib\Rest\Symfony4\Helpers\RestApiRouteHelper;
+use ZnCrypt\Tunnel\Symfony4\Api\Controllers\HandShakeController;
+use ZnLib\Rest\Helpers\RestApiRouteHelper;
 
 class CryptModule
 {

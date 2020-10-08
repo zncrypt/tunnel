@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Libs\Tunnel;
+namespace ZnCrypt\Tunnel\Domain\Libs\Tunnel;
 
 use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
 

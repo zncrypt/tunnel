@@ -1,11 +1,11 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Libs;
+namespace ZnCrypt\Tunnel\Domain\Libs;
 
 use GuzzleHttp\Psr7\Response;
 use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
 use ZnCore\Base\Enums\Http\HttpHeaderEnum;
-use ZnCrypt\BaseTunnel\Domain\Interfaces\TransportInterface;
+use ZnCrypt\Tunnel\Domain\Interfaces\TransportInterface;
 use Psr\Http\Message\ResponseInterface;
 
 class ProtoClient

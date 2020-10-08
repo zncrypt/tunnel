@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Libs;
+namespace ZnCrypt\Tunnel\Domain\Libs;
 
 use ZnCrypt\Base\Domain\Libs\Encoders\EncoderInterface;
 use ZnCore\Base\Helpers\StringHelper;

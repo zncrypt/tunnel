@@ -1,6 +1,6 @@
 <?php
 
-namespace ZnCrypt\BaseTunnel\Domain\Interfaces;
+namespace ZnCrypt\Tunnel\Domain\Interfaces;
 
 interface TransportInterface
 {
